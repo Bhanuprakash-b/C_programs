@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+int l,i,j;
+char k[10000],r[10000],f[10000];
+printf("Enter any string ");
+scanf("%s",k);
+l=strlen(k);
+
+
+for (i=0;l>=i;i++)
+{
+r[i]=k[i];
+printf("%c",r[i]);
+}
+}
